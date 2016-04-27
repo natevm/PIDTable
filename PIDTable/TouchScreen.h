@@ -10,7 +10,7 @@ class TouchScreen {
     int yResolution = 100;
   public:
     TouchScreen(int x1Pin, int x2Pin, int y1Pin, int y2Pin);
-    int getXCoordinate();
-    int getYCoordinate();
+    double getXCoordinate();
+    double getYCoordinate();
 };
 
